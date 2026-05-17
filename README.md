@@ -1,21 +1,21 @@
-# 🎯 Resume Screening AI
+#  Resume Screening AI
 
 An AI-powered resume screening web app built with **Streamlit**, **TF-IDF**, and **XGBoost** that matches resumes against job descriptions and ranks candidates by match score.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📄 Upload resume as **PDF or DOCX** — text is extracted automatically
-- 📝 Paste resume text directly
-- 📊 Get an instant **match score (%)** for any job description
-- 🏆 **Batch ranking** — compare and rank multiple resumes at once
-- 📁 Train on your **own CSV dataset**
-- ⬇️ **Export results** as CSV
+-  Upload resume as **PDF or DOCX** — text is extracted automatically
+-  Paste resume text directly
+-  Get an instant **match score (%)** for any job description
+-  **Batch ranking** — compare and rank multiple resumes at once
+-  Train on your **own CSV dataset**
+-  **Export results** as CSV
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -28,7 +28,7 @@ An AI-powered resume screening web app built with **Streamlit**, **TF-IDF**, and
 
 ---
 
-## 📦 Installation
+##  Installation
 
 **1. Clone the repository**
 ```bash
@@ -50,7 +50,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Resume_Screening/
@@ -62,7 +62,7 @@ Resume_Screening/
 
 ---
 
-## 📖 How It Works
+##  How It Works
 
 1. **Enter a Job Description** in the sidebar
 2. **Upload or paste a resume** in the Single Resume tab
@@ -74,7 +74,7 @@ Resume_Screening/
 
 ---
 
- Scoring Formula
+ ## Scoring Formula
 
 ```
 Final Score = (0.60 × Cosine Similarity) + (0.30 × Keyword Overlap) + Skill Bonus
@@ -83,19 +83,19 @@ Threshold   = 35% → Shortlist | Below 35% → Reject
 
 ---
 
-Screenshots
+## Screenshots
 
 > Add screenshots of your app here after running it locally.
 
 ---
 
- Author
+# Author
 
 **Kanishka Singhal**  
 [GitHub](https://github.com/kanishkaSinghal201)
 
 ---
 
-## 📄 License
+# License
 
 This project is open source and available under the [MIT License](LICENSE).
